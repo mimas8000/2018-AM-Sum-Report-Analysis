@@ -18,7 +18,7 @@ View(weath2018)
         tz = "America/Los_Angeles" ), Date_Time < as.POSIXlt("2018-07-22 07:05:00", 
         tz = "America/Los_Angeles"))
 
-    ### Create dataframe with mean hourly MET variable
+    ### Create data with mean hourly MET variable
         align.time.down = function(x,n){ index(x) = index(x)-n; align.time(x,n) }
         
         ### East Point Wind Speed
